@@ -1,6 +1,8 @@
 # change-display-resolution
 Mudando resolução do monitor para uma que não apareça nas opções
 
+use:
+node resolucao.js  
 
 The changes are lost after reboot, to set up the resolution persistently, create the file ~/.xprofile with the content:
 caso não consiga manter a resolução após reiniciar o sistema, favor acrescentar as linhas do comando no arquivo /.profile
